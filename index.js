@@ -1,5 +1,5 @@
 full_name = document.getElementById("full_name");
-f_name = "Ruben";
+f_name = prompt("Please enter your name");
 full_name.innerHTML = "Welcome " + f_name + " to the BOF Bank";
 
 let check_balance = document.getElementById("check_balance");

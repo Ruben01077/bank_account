@@ -1,0 +1,67 @@
+
+#main_Div{
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+  
+ 
+   
+}
+
+#full_name{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+#screen{
+    position: relative; 
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 95%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.948), rgba(255, 255, 255, 0.793)), url("https://www.relofirm.com/wp-content/uploads/2013/11/panama-bank-account.jpg");
+    background-size: cover;
+
+   
+
+}
+
+.screen::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(161, 255, 89, 0.25);
+    opacity: 80%;
+}
+
+
+#button_div button{
+    margin: 15px 4px 5px 4px ;
+  font-size: 25px;
+
+}
+
+#button_div{
+
+    text-align: center;
+}
+
+#balance{
+
+  color: black;
+    
+
+}
